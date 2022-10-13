@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Color!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="heading">
+        Guess The Color
+        <br> 
+        <span id="colorDisplay">RGB</span>
+    </h1>
+    <div id="bar1">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button id="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard" class="selected">Hard</button>
+    </div>
+    
+    <section class="mid">
+        <div class="square1 special"></div>
+        <div class="square2 special"></div>
+        <div class="square3 special"></div>
+        <div class="square4 special"></div>
+        <div class="square5"></div>
+        <div class="square6"></div>
+    </section>
+    <footer>
+        <em>Try and guess the correct color!</em>
+          </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
